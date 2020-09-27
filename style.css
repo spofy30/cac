@@ -38,6 +38,7 @@ body {
     color: #ffffff;
     margin-left: 42px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 .nav-link:hover {
