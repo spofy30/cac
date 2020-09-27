@@ -360,12 +360,71 @@ p {
     transition: all 0.3s;
 }
 
-footer {
+.footerContainer {
     margin: 0px 100px 0px 74px;
     padding: 0px 15px 0px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.skillsSection {
+    margin: 0px 100px 0px 74px;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.skillsContainer div {
+    border: 1px solid #cccccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    align-content: center;
+    padding: 50px;
+    color: #cccccc;
+}
+
+.skillsContainer div:hover {
+    background-color: #feb633;
+    color: #303131;
+    transition: all 0.3s;
+}
+
+.webTitle {
+    padding-top: 12%;
+}
+
+#skillTitle {
+    margin: 0;
+}
+
+#smallTitles {
+    margin-bottom: 20px;
+}
+
+#Softwares {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.SkTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #303131;
 }
 
 .socialMedia {
@@ -444,6 +503,18 @@ footer {
         display: grid;
         grid-template-columns: auto;
     }
+    #cards {
+        width: 100%;
+    }
+    #cardsIcon {
+        margin-left: 5%;
+    }
+    .Stitle {
+        margin-left: 5%;
+    }
+    #cardp {
+        margin-left: 5%;
+    }
     .heroimage {
         display: none;
     }
@@ -483,6 +554,15 @@ footer {
     }
     .col2 {
         padding-left: 0px;
+    }
+    .skillsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .skillsContainer div {
+        width: 80%;
     }
 }
 
